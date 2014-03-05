@@ -1,4 +1,20 @@
+@font-face
+{
+    font-family: headlinefont;
+    src: url(fonts/bleeding-cowboys.woff);
+}
 
+.navbar-default .navbar-brand {
+    font-size: 300%;
+    font-family: headlinefont;
+    color: #333;
+}
+
+h1 {
+    font-size: 200%;
+    font-family: headlinefont;
+    color: #333;
+}
 body {
   padding-top: 50px;
 }
